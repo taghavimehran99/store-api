@@ -9,6 +9,7 @@
 :root{
 
     --clo-one:#fb5c42;
+    /* --clo-two:#fb5c42; */
     --clo-white:#ffff;
     --clo-black:#00000000;
     --clo-backgran:#eee;
@@ -37,14 +38,28 @@
 
 }
 
-.parent-icon{
+.parent-icon-header{
     margin: 20px;
 }
 
-.bi{
+.bii{
     margin: 10PX;
     color: black;
     padding: 10px;
     background-color: var(--clo-backgran);
     border-radius: 100%;
+}
+
+.parent-icon-mid{
+    /* margin: 40px; */
+}
+
+.bi{
+
+    margin: 10PX;
+    color: var(--clo-one);
+    opacity: 70%;
+    padding: 10px;
+    font-size: 90px;
+    /* border-radius: 100%; */
 }
