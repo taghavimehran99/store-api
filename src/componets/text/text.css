@@ -1,0 +1,96 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+:root{
+
+    --clo-primery:#fb5c42;
+    --clo-one:#777;
+    --clo-white:#ffff;
+    --clo-black:#00000000;
+    --font-bold:bold;
+    
+
+}
+
+
+
+.parent-text-prise{
+
+}
+
+.text-prise{
+    color: var(--clo-one);
+}
+
+
+
+.parent-te-per-black{
+
+}
+
+
+.text-prise-black{
+   color: black; 
+}
+
+
+.parent-te-primery{
+
+}
+
+.text-primery{
+    color: var(--clo-primery);
+}
+.parent-te-discription{
+
+}
+
+.text-discription{
+    color: #757575;
+}
+
+
+
+
+.parent-text-withe-titel{
+
+
+}
+
+.text-withe-titel{
+    background-color: #777;
+    color: var(--clo-white);
+    font-size: 60px;
+}
+
+.parent-text-withe{
+
+
+}
+
+.text-withe{
+    background-color: #777;
+    color: var(--clo-white);
+   
+}
+
+
+.parent-text-primery-dowonline{
+
+
+}
+
+.text-primery-dowonline{
+
+    color: var(--clo-primery);
+    border-bottom: var(--clo-primery) solid 1px;
+
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+:root{
+
+    --clo-one:#fb5c42;
+    --clo-white:#ffff;
+    --clo-black:#00000000;
+    --clo-backgran:#eee;
+    --font-bold:bold;
+    
+
+}
+
+
+.icon-serch{
+
+
+
+}
+
+
+.icon-person{
+
+  
+
+}
+
+.icon-card{
+
+    
+
+}
+
+.parent-icon{
+    margin: 20px;
+}
+
+.bi{
+    margin: 10PX;
+    color: black;
+    padding: 10px;
+    background-color: var(--clo-backgran);
+    border-radius: 100%;
+}
