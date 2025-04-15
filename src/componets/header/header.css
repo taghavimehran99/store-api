@@ -4,6 +4,7 @@ root:{
         --clo-one:#777;
         --clo-white:#ffff;
         --clo-black:#00000000;
+        --clo-text-droup-li-a:#222;
         --font-bold:bold;
         
     
@@ -53,6 +54,10 @@ root:{
     border-radius: 0px
 }
 
+
+/* .dropdown-menu  li{
+    color: var(--clo-primery);
+} */
 
 
 
