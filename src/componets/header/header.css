@@ -37,3 +37,21 @@ root:{
     outline: none ;  
     box-shadow: none ; 
   }
+
+
+
+  .dropdown-menu{
+   
+    border: solid 0px;
+    border-top: solid 5px #fb5c42;
+    width: 10px;
+    border-radius: 0px;
+  }
+
+/* .dropdown-menu,li{
+    padding-top: 20px;
+} */
+
+
+
+
