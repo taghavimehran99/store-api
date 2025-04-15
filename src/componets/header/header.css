@@ -1,0 +1,39 @@
+root:{
+
+        --clo-primery:#fb5c42;
+        --clo-one:#777;
+        --clo-white:#ffff;
+        --clo-black:#00000000;
+        --font-bold:bold;
+        
+    
+
+}
+
+/* 
+.navbar-toggler{
+    focus
+} */
+
+
+/* .container-fluid{
+     padding: 50px;
+} */
+
+
+
+.nav-link{
+    color: var(--clo-black);
+    font-weight: bold;
+}
+
+
+.nav-link-active{
+    color: #fb5c42;
+    font-weight: bold;
+}
+
+.navbar-toggler:focus {
+    outline: none ;  
+    box-shadow: none ; 
+  }

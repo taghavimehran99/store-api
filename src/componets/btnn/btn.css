@@ -1,0 +1,212 @@
+
+*{
+
+    margin:
+0px;
+
+    padding:
+0px;
+
+    box-sizing:
+border-box;
+
+}
+
+
+
+:root{
+
+
+
+    --clo-one:#fb5c42;
+
+    --clo-white:#ffff;
+
+    --clo-black:#00000000;
+
+    --font-bold:bold;
+
+    --styel-transition: ;
+
+}
+
+
+
+.parent-btn{
+
+/* background-color: #fb5c42; */
+
+/* border-color: var(--clo-one); */
+
+}
+
+
+
+
+
+.parent-bt-wh{
+
+
+
+}
+
+
+
+.btn-hover-white{
+
+    margin:
+50px;
+
+    background-color:
+var(--clo-one);
+
+    color:var(--clo-white)
+ ;
+
+    /* border-color: var(--clo-one) ; */
+
+    border:
+0px 
+solid ;
+
+    padding:
+20px 
+40px 20px
+40px;
+
+    font-weight:var(--font-bold);
+
+    transition:
+all 
+0.4s ease-in-out;
+/* تغییرات اصلی دکمه */
+
+
+}
+
+
+
+.btn-hover-white:hover{
+
+    color:
+#000000;
+
+    background-color:
+var(--clo-white);
+
+}
+
+
+
+.parent-bt-bl{
+
+
+
+}
+
+
+
+
+.btn-hover-black{
+
+    margin:
+50px;
+
+    background-color:
+var(--clo-one);
+
+    color:var(--clo-white)
+ ;
+
+    border:
+0px 
+solid ;
+
+    padding:
+20px 
+40px 20px
+40px;
+
+    font-weight:var(--font-bold);
+
+    position:
+relative;
+
+    z-index:
+1;
+
+    transition:
+all 
+0.4s ease-in-out;
+/* تغییرات اصلی دکمه */
+
+
+
+}
+
+.btn-hover-black::before{
+
+    content:
+'';
+
+   border:
+solid 
+3px var(--clo-one);
+
+   width:
+100%;
+
+   height:
+100%;
+
+    position:
+absolute;
+
+    top:
+-10px;
+
+    left:
+-20px;
+
+    z-index:
+-1;
+
+
+
+}
+
+
+
+.btn-hover-black:hover{
+
+    color:
+#ffffff;
+
+    background-color:
+#000000;
+
+
+
+}
+
+
+
+.btn-hover-black:hover::before{
+
+    /* color: #ffffff; */
+
+    border:
+solid 
+3px #000000 ;
+
+    top:
+-10px;
+
+    left:
+-20px;
+
+  
+
+
+
+}
