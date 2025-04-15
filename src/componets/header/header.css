@@ -48,9 +48,13 @@ root:{
     border-radius: 0px;
   }
 
-/* .dropdown-menu,li{
-    padding-top: 20px;
-} */
+.dropdown-menu,ul{
+    /* padding-top: 20px; */
+    border-radius: 0px
+}
+
+
+
 
 
 
