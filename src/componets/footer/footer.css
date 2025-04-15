@@ -1,0 +1,29 @@
+root:{
+
+    --clo-primery:#fb5c42;
+    --clo-one:#777;
+    --clo-white:#ffff;
+    --clo-black:#00000000;
+    --clo-text-droup-li-a:#222;
+    --clo-bgg-footer:#f9f9f9;
+    --font-bold:bold;
+    
+
+
+}
+
+
+
+/* .bgg-secondary{
+    background-color: var(--clo-bgg-footer);
+} */
+
+
+.footer-item-p{
+    color: #777;
+}
+
+
+footer{
+    background-color: #F9F9F9;
+}

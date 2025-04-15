@@ -1,15 +1,4 @@
-root:{
 
-        --clo-primery:#fb5c42;
-        --clo-one:#777;
-        --clo-white:#ffff;
-        --clo-black:#00000000;
-        --clo-text-droup-li-a:#222;
-        --font-bold:bold;
-        
-    
-
-}
 
 /* 
 .navbar-toggler{
@@ -44,8 +33,8 @@ root:{
   .dropdown-menu{
    
     border: solid 0px;
-    border-top: solid 5px #fb5c42;
-    width: 10px;
+    border-top: solid 3px #fb5c42;
+    width: 155px;
     border-radius: 0px;
   }
 
