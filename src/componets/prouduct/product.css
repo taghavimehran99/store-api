@@ -1,24 +1,45 @@
-.card-img-top{
+
+:root{
+
+    --clo-primery:#fb5c42;
+    --clo-one:#777;
+    --clo-white:#ffff;
+    --clo-black:#00000000;
+    --font-bold:bold;
+    
 
 }
 
 
 
-.card-img-top:hover{
+.card-top-center{
 
-    background-image: url(/src/assets/images/222.jpg);
-    background: ;
-
+    position: relative;
 }
 
-
-.ppp{
+.card-img-top1{
 
 
 }
+.card-img-top2{
 
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    
 
-.ppp:hover{
+}
 
-    background-image: url('/src/assets/images/222.jpg');
+.card-img-top2:hover{
+    opacity: 0;
+}
+
+.text-off{
+    color: var(--clo-white);
+    background-color:var(--clo-primery) ;
+    padding: 5px 10px;
+    position: absolute;
+    /* margin: 0px; */
+    top: 30px;
+    right: 0px;
 }
