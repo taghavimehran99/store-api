@@ -77,9 +77,11 @@ padding: 10px;
 
 .parent-icon-part-product{
     border: 0px; 
+    border-radius: 100%;
 }
 .parent-icon-part-product1{
     border: 0px; 
+    border-radius: 100%;
 }
 
 
@@ -89,4 +91,3 @@ padding: 10px;
 .icon-part-product1:hover{
     background-color: var(--clo-primery);
 }
-
