@@ -11,12 +11,6 @@
 }
 
 
-
-/* .card{
-
-    position: relative;
-} */
-
 .card-img-top1{
 
 
@@ -26,12 +20,25 @@
     width: 100%;
     position: absolute;
     transition: 0.5s;
+    /* z-index: 1; */
     
 
 }
 
 .card-img-top2:hover{
     opacity: 0;
+    /* display: none; */
+}
+
+
+
+
+.card-text{
+    font-weight: bolder;
+}
+
+.card-text-prise{
+    color: #777;
 }
 
 .text-off{
@@ -39,7 +46,7 @@
     background-color:var(--clo-primery) ;
     padding: 5px 10px;
     position: absolute;
-    /* margin: 0px; */
+    
     top: -320px;
     right: 0px;
 }
@@ -53,8 +60,9 @@
 .parent-icon-part-product{
     position: absolute;
     top: -150px;
+    /* opacity: 0; */
     
-    /* z-index: 1000; */
+   /* z-index: 1; */
     
 }
 .parent-icon-part-product1{
@@ -62,6 +70,6 @@
     top: -150px;
     right: 150px;
     
-    /* z-index: 1000; */
+    
     
 }
