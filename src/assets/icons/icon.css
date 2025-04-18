@@ -8,7 +8,7 @@
 
 :root{
 
-    --clo-one:#fb5c42;
+    --clo-primery:#fb5c42;
     /* --clo-two:#fb5c42; */
     --clo-white:#ffff;
     --clo-black:#00000000;
@@ -57,7 +57,7 @@
 .bi{
 
     margin: 5px;
-    color: var(--clo-one);
+    color: var(--clo-primery);
     opacity: 70%;
     /* padding: 10px; */
     font-size: 90px;
@@ -78,9 +78,15 @@ padding: 10px;
 .parent-icon-part-product{
     border: 0px; 
 }
+.parent-icon-part-product1{
+    border: 0px; 
+}
 
 
 .icon-part-product:hover{
-    background-color: var(--clo-one);
+    background-color: var(--clo-primery);
+}
+.icon-part-product1:hover{
+    background-color: var(--clo-primery);
 }
 
