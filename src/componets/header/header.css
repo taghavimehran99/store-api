@@ -24,6 +24,7 @@
 .nav-link{
     color: var(--clo-black);
     font-weight: bold;
+    margin-left: 20px;
 }
 
 
