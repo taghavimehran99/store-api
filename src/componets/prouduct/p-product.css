@@ -1,0 +1,172 @@
+
+:root{
+
+
+}
+
+
+
+.card{
+text-align: center;
+width: 18rem;
+ border: 0px;
+ position: relative;
+
+
+}
+
+
+.parent-icon-part-product{
+    position: absolute;
+    top: 300px;
+    right: 98px;
+}
+.parent-icon-part-product1{
+    position: absolute;
+    top: 300px;
+    right: 140px;
+}
+
+
+.imag2{
+    position: absolute;
+    top: 0px;
+    transition: 0.5s;
+}
+
+/* .imag2:hover{
+    opacity: 0;
+} */
+
+
+.butn-buy-favirit{
+    position: absolute;
+    /* top: 300px;
+    right: 94px; */
+}
+
+.card-text {
+
+    font-weight: bolder;
+    color: black;
+    margin-top: 20px;
+}
+
+.card-text-prise{
+    margin-top: 20px;
+    color: #777;
+
+
+}
+
+
+
+
+/* .card-img-top1{
+    position: relative;
+ 
+}
+.card-img-top2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s ease;
+
+} */
+
+/* .card-img-top2:hover{ 
+    opacity: 0;
+
+} */
+
+
+/* .p-cart{
+    position: relative;
+
+
+}
+
+.p-cart1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.3s ease;
+
+}
+
+
+.p-cart1:hover{
+    opacity: 0;
+
+} */
+
+
+.modal-header{
+    border-bottom: 0px;
+}
+
+
+.modalll{
+    color:#ffffff ;
+}
+
+.btn-close{
+
+    color: #fff;
+}
+
+
+.btn-close {
+    filter: invert(1) !important;
+  }
+
+  .btn-close:focus{
+ 
+    box-shadow: none !important;
+  }
+
+
+  .modal-dialog-bottom-right {
+    position: fixed;
+   
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    max-width: 350px;
+    /* animation: slideUp 0.3s ease-out; */
+  }
+
+  .modal-backdrop {
+    display: none !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .change-me {
+    transition: all 0.3s ease;
+    opacity: 0;
+  }
+
+  .wrapper:hover .change-me {
+    background-color: lightblue;
+    opacity: 1;
+    color: darkblue;
+  }

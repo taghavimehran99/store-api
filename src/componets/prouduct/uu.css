@@ -1,0 +1,84 @@
+.card {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border: 0px;
+  }
+  
+  .card-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .imag1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 2;
+  }
+  
+  .imag2 {
+    z-index: 1;
+  }
+  
+  .card:hover .imag1 {
+    opacity: 1;
+  }
+  
+  .card:hover .imag2 {
+    opacity: 0;
+  }
+  
+  /* دکمه‌ها روی عکس دوم */
+  .parent-icon-part-product,
+  .parent-icon-part-product1 {
+    position: absolute;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .parent-icon-part-product:hover,
+  .parent-icon-part-product1:hover {
+   
+    background-color: #fb5c42;
+   
+  }
+  
+  /* تنظیم مکان دکمه‌ها */
+  .parent-icon-part-product {
+    left: 30%;
+  }
+  
+  .parent-icon-part-product1 {
+    right: 30%;
+  }
+
+
+  .card-text{
+    font-weight: bolder;
+  }
+
+  .card-text-prise{
+    color: #777;
+  }
+
+  .text-off{
+    color: var(--clo-white);
+    background-color:var(--clo-primery) ;
+    padding: 5px 10px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    z-index: 100;
+}
