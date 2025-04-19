@@ -27,3 +27,12 @@ root:{
 footer{
     background-color: #F9F9F9;
 }
+
+
+.footer-item-p-ho{
+    color: #777;
+}
+
+.footer-item-p-ho:hover{
+    color: #fb5c42;
+}
