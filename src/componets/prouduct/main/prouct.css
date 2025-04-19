@@ -82,3 +82,8 @@
     right: 0px;
     z-index: 100;
 }
+
+
+.item-center{
+  justify-items: center;
+}
