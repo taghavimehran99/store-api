@@ -27,6 +27,11 @@
 }
 
 
+.nav-link:hover{
+    color: #fb5c42;
+}
+
+
 .nav-link-active{
     color: var(--clo-one);
     font-weight: bold;
