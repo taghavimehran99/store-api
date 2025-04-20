@@ -1,14 +1,11 @@
 
 *{
 
-    margin:
-0px;
+    margin:0px;
 
-    padding:
-0px;
+    padding:0px;
 
-    box-sizing:
-border-box;
+    box-sizing:border-box;
 
 }
 
@@ -54,31 +51,22 @@ border-box;
 
 .btn-hover-white{
 
-    margin:
-50px;
+    margin:50px;
 
-    background-color:
-var(--clo-one);
+    background-color:var(--clo-one);
 
     color:var(--clo-white)
  ;
 
     /* border-color: var(--clo-one) ; */
 
-    border:
-0px 
-solid ;
+    border:0px solid ;
 
-    padding:
-20px 
-40px 20px
-40px;
+    padding:20px 40px 20px 40px;
 
     font-weight:var(--font-bold);
 
-    transition:
-all 
-0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
 /* تغییرات اصلی دکمه */
 
 
@@ -88,11 +76,9 @@ all
 
 .btn-hover-white:hover{
 
-    color:
-#000000;
+    color:#000000;
 
-    background-color:
-var(--clo-white);
+    background-color:var(--clo-white);
 
 }
 
@@ -109,8 +95,7 @@ var(--clo-white);
 
 .btn-hover-black{
 
-    margin:
-50px;
+    margin:20px;
 
     background-color:
 var(--clo-one);
@@ -118,26 +103,17 @@ var(--clo-one);
     color:var(--clo-white)
  ;
 
-    border:
-0px 
-solid ;
+    border:0px solid ;
 
-    padding:
-20px 
-40px 20px
-40px;
+    padding:20px 40px 20px 40px;
 
     font-weight:var(--font-bold);
 
-    position:
-relative;
+    position:relative;
 
-    z-index:
-1;
+    z-index:1;
 
-    transition:
-all 
-0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
 /* تغییرات اصلی دکمه */
 
 
@@ -146,30 +122,21 @@ all
 
 .btn-hover-black::before{
 
-    content:
-'';
+    content:'';
 
-   border:
-solid 
-3px var(--clo-one);
+   border:solid 3px var(--clo-one);
 
-   width:
-100%;
+   width:100%;
 
-   height:
-100%;
+   height:100%;
 
-    position:
-absolute;
+    position:absolute;
 
-    top:
--10px;
+    top:-10px;
 
-    left:
--20px;
+    left:-20px;
 
-    z-index:
--1;
+    z-index:-1;
 
 
 
@@ -179,11 +146,9 @@ absolute;
 
 .btn-hover-black:hover{
 
-    color:
-#ffffff;
+    color:#ffffff;
 
-    background-color:
-#000000;
+    background-color:#000000;
 
 
 
@@ -195,15 +160,10 @@ absolute;
 
     /* color: #ffffff; */
 
-    border:
-solid 
-3px #000000 ;
+    border:solid 3px #000000 ;
 
-    top:
--10px;
-
-    left:
--20px;
+    top:-10px;
+    left:-20px;
 
   
 
