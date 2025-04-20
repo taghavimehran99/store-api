@@ -87,3 +87,26 @@
 .item-center{
   justify-items: center;
 }
+
+
+
+
+/* toast styel */
+
+
+
+
+.btn-close{
+
+  border: solid 5px #fff  !important;
+
+  /* background-color: #fb5c42 !important; */
+  
+}
+
+
+.btn-primary{
+
+  padding: 0px;
+  margin: 0px;
+}
