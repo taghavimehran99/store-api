@@ -94,6 +94,15 @@
 /* toast styel */
 
 
+.button-fav{
+  border: 0px;
+   position: absolute; 
+   top: 308.5px;
+   right: 90px;
+   background: none;
+}
+
+
 
 
 .btn-close{
