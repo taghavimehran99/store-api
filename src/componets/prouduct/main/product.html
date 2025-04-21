@@ -88,7 +88,7 @@
                       <div class="card-image imag1">
                         <a href=""><img src="/src/assets/images/444.jpg" alt="Hover Image"></a>
                         <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                        <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                        <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                  
                        </div>
                        <p class="text-off">SALE</p>
@@ -112,7 +112,7 @@
                 <div class="card-image imag1">
                  <a href=""><img src="/src/assets/images/444.jpg" alt="Hover Image"></a>
                   <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                  <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                  <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                 </div>
               
                 <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -137,7 +137,7 @@
                   <div class="card-image imag1">
                     <a href=""><img src="/src/assets/images/322.jpg" alt="Hover Image"></a>
                     <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                    <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                    <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
              
                    </div>
                    <p class="text-off">SALE</p>
@@ -161,7 +161,7 @@
                   <div class="card-image imag1">
                    <a href=""><img src="/src/assets/images/111.jpg" alt="Hover Image"></a>
                     <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                    <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                    <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                   </div>
                 
                   <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -185,7 +185,7 @@
                   <div class="card-image imag1">
                    <a href=""><img src="/src/assets/images/222.jpg" alt="Hover Image"></a>
                     <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                    <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                    <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                   </div>
                 
                   <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -210,7 +210,7 @@
                   <div class="card-image imag1">
                    <a href=""><img src="/src/assets/images/222.jpg" alt="Hover Image"></a>
                     <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                    <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                    <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                   </div>
                 
                   <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -236,7 +236,7 @@
                   <div class="card-image imag1">
                    <a href=""><img src="/src/assets/images/444.jpg" alt="Hover Image"></a>
                     <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                    <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                    <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
                   </div>
                 
                   <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -263,7 +263,15 @@
                 <div class="card-image imag1">
                  <a href=""><img src="/src/assets/images/322.jpg" alt="Hover Image"></a>
                   <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
-                  <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+
+                  <button type="button" class="button-fav" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
+                 
+                  <div>
+                    
+
+                  </div>
+
+
                 </div>
               
                 <!-- لایه عکس اول (پیش‌فرض قابل دیدن) -->
@@ -276,22 +284,48 @@
                   <p class="card-text">Sleeve linen shirt</p>
                   <p class="card-text-prise"><s class="me-2">60$</s> $50.10</p>
                 </div>
-                        </div>
-
-
+              </div>
                 
             </div>
-
-
-
-
         </div>
-         
-        
       </section>
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <button type="button" style="border: 0px;" id="liveToastBtn"><i class="biii bi-heart-fill icon-part-product"></i></button>
 
+        <div class="toast-container position-fixed bottom-0 end-0 p-3" style="top:10px;" >
+              <div id="liveToast"style="background-color: #00AC00; border: none; " class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header" style="border: none; ">
+          <div class="" >
+          <i  class="bi bi-check-lg" style="color: #ffffff; font-size: 40px;"></i>
+    </div>
+         <strong class="me-auto" style="color: #ffffff;">This product has been added on your wish list
+        <button type="button" styel="" class="btn-close cum" data-bs-dismiss="toast" aria-label="Close"></button>
+       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script>
+
+
+
+document.querySelectorAll('.button-fav').forEach(button => {
+  button.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(document.getElementById('liveToast'));
+    toast.show();
+  });
+});
+
+
+</script>
 </body>
 </html>
