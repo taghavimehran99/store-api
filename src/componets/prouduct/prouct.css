@@ -94,19 +94,41 @@
 /* toast styel */
 
 
+.button-fav{
+  border: 0px;
+   position: absolute; 
+   top: 308.5px;
+   right: 90px;
+   background: none;
+}
+
+
 
 
 .btn-close{
+ color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
 
-  border: solid 5px #fff  !important;
+}
 
-  /* background-color: #fb5c42 !important; */
+
+.btn-close:hover{
+
+  color: #fff !important;
   
 }
 
-
 .btn-primary{
-
+  border: 0px;
   padding: 0px;
   margin: 0px;
+  background-color: currentColor;
 }
+
+
+.toast-container{
+
+  border: solid 0px #fff;
+}
+

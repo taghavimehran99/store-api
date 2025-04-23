@@ -26,17 +26,57 @@
     color: black;
 }
 
+/*  styels hover icone next */
 
 
-.carouselExampleRide:hover  .carousel-control-prev-icon{
-    background-color: #fb5c42;
-    color: #fb5c42;
+
+.carousel-control-next{
+  width: 50px;
+height: 70;
+height: 50px;
+top: 50%;
+right: 5%;  
+transition: 0.5s;
 }
 
 
-.carouselExampleRide:hover .carousel-control-next{
-    background-color: #fb5c42;
+
+.carousel-control-next-icon{
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
 }
+
+.carousel-inner:hover .carousel-control-next{
+    background-color: #fb5c42;
+    opacity: 1;
+    border-radius: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+/* styels hover icone prev  */
+
+
+.carousel-control-prev{
+    width: 50px;
+  height: 70;
+  height: 50px;
+  top: 50%;
+  left: 5%;  
+  transition: 0.5s;
+  }
+  
+  
+  
+  
+  .carousel-inner:hover .carousel-control-prev{
+      background-color: #fb5c42;
+      opacity: 1;
+      border-radius: 100px;
+      margin: 0px;
+      padding: 0px;
+  }
+
 
 
 
