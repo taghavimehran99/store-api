@@ -1,0 +1,73 @@
+let inputJson=[
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Floral Kirby",
+        "price":"$329.10",
+        "detel-titel":"SALE"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Open knit switer",
+        "price":"$29.10",
+        "detel-titel":"SALE"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Official trendy",
+        "price":"$350.00-355.00"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Frock short",
+        "price":"$249"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Sleeve dress",
+        "price":"$59.10"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Stylish dress",
+        "price":"$99.00"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Body suite",
+        "price":"$329.10"
+    },
+    {
+        "imag1":"url()" ,
+        "imag2":"url()" ,
+        "titel":"Body suite",
+        "priceLin":"$60",
+        "price":"$60"
+        
+    }
+
+];
+
+const all=document.getElementById('all')
+
+
+console.log(inputJson);
+
+for (let i = 0; i < inputJson.length; i++) {
+    const element = inputJson[i];
+
+    all.innerHTML=
+    <p>${price}</p>
+    
+    ;
+}
+
+
+
+

@@ -132,3 +132,24 @@
   border: solid 0px #fff;
 }
 
+/* loop */
+
+
+
+
+
+
+
+
+
+
+
+.all{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  margin: 5px;
+  padding: 10px;
+
+  display: block;
+}
