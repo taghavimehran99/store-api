@@ -1,4 +1,4 @@
-.card {
+/* .card {
     position: relative;
     width: 300px;
     overflow: hidden;
@@ -31,10 +31,10 @@
   
   .card:hover .imag2 {
     opacity: 0;
-  }
+  } */
   
   /* دکمه‌ها روی عکس دوم */
-  .parent-icon-part-product,
+  /* .parent-icon-part-product,
   .parent-icon-part-product1 {
     position: absolute;
     bottom: 60px;
@@ -53,10 +53,10 @@
    
     background-color: #fb5c42;
    
-  }
+  } */
   
   /* تنظیم مکان دکمه‌ها */
-  .parent-icon-part-product {
+  /* .parent-icon-part-product {
     left: 30%;
   }
   
@@ -86,14 +86,14 @@
 
 .item-center{
   justify-items: center;
-}
+} */
 
 
 
 
 /* toast styel */
 
-
+/* 
 .button-fav{
   border: 0px;
    position: absolute; 
@@ -130,7 +130,7 @@
 .toast-container{
 
   border: solid 0px #fff;
-}
+} */
 
 /* loop */
 
@@ -145,11 +145,57 @@
 
 
 .all{
-  width: 200px;
-  height: 200px;
+  width: 100vw;
+  height: 100%;
   background-color: aquamarine;
   margin: 5px;
   padding: 10px;
+  text-align: center;
 
-  display: block;
+  display: flex;
+  /* position: relative; */
+}
+
+
+
+
+.divCard{
+  /* width: 100vw;
+  height: 80px;
+background-color: #fb5c42; */
+position: relative;
+/* padding:; */
+margin-left: 10px;
+}
+
+
+.cardImag{
+  /* width: 50px;
+  height: 50px;
+background-color: #42fba2; */
+text-align: center;
+position: absolute;
+opacity: 0;
+transition: 0.5s;
+}
+
+.cardImag:hover{
+  opacity: 1;
+}
+
+
+.cardImag1{
+  /* width: 50px;
+  height: 50px;
+  background-color: #42ecfb; */
+/* position: absolute; */
+}
+
+.cardBady{
+  /* width: 50px;
+  height: 50px;
+  background-color: #fb424e;
+  text-align: center; */
+
+
 }
