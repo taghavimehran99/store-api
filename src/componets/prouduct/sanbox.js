@@ -122,8 +122,8 @@ for (let i = 0; i < inputJson.length; i++) {
  divCard.innerHTML=`
      <div class="cardImag">
      <a href=""><img src="${vv.imag2}" alt=""></a>
-      <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
       <button class="parent-icon-part-product1"><i class="biii bi-heart-fill icon-part-product"></i></button>
+      <button class="parent-icon-part-product"><i class="biii bi-cart-fill icon-part-product"></i></button>
     </div>
   
 
@@ -138,6 +138,12 @@ for (let i = 0; i < inputJson.length; i++) {
     </div>
     <p class="${vv.deteltitel ? 'text-off' : "" }">${vv.deteltitel}</p>
 
+
+
+
+
+
+
     `;
 
 
@@ -146,16 +152,16 @@ for (let i = 0; i < inputJson.length; i++) {
 // }
 
 
-    cardBady.innerHTML=`
+    // cardBady.innerHTML=`
      
   
-    // <div>
-    //   <pt>${vv.titel}</p>
-    //   <p>${vv.price}</p>
-    // </div>
+    // // <div>
+    // //   <pt>${vv.titel}</p>
+    // //   <p>${vv.price}</p>
+    // // </div>
     
 
-    `;
+    // `;
 }
 
 
