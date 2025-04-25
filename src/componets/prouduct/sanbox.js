@@ -139,29 +139,10 @@ for (let i = 0; i < inputJson.length; i++) {
     <p class="${vv.deteltitel ? 'text-off' : "" }">${vv.deteltitel}</p>
 
 
-
-
-
-
-
     `;
 
 
-// if (vv.deteltitel==='sale') {
-//     .text-off
-// }
 
-
-    // cardBady.innerHTML=`
-     
-  
-    // // <div>
-    // //   <pt>${vv.titel}</p>
-    // //   <p>${vv.price}</p>
-    // // </div>
-    
-
-    // `;
 }
 
 
