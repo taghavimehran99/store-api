@@ -35,8 +35,8 @@ let inputJson=[
     },
     {
         "id":"4",
-        "imag1":"/public/imags/4/111.jpg" ,
-        "imag2":"/public/imags/4/322.jpg" ,
+        "imag1":"/public/imags/4/322.jpg" ,
+        "imag2":"/public/imags/4/111.jpg" ,
         "titel":"Frock short",
         "priceLin":"",
         "price":"$249",
@@ -46,8 +46,8 @@ let inputJson=[
     },
     {
         "id":"5",
-        "imag2":"/public/imags/5/322.jpg" ,
-        "imag1":"/public/imags/5/222.jpg" ,
+        "imag2":"/public/imags/5/222.jpg" ,
+        "imag1":"/public/imags/5/444.jpg" ,
         "titel":"Sleeve dress",
         "priceLin":"",
         "price":"$59.10",
@@ -57,8 +57,8 @@ let inputJson=[
     },
     {
         "id":"6",
-        "imag1":"/public/imags/6/222.jpg" ,
-        "imag2":"/public/imags/6/322.jpg" ,
+        "imag1":"/public/imags/6/322.jpg" ,
+        "imag2":"/public/imags/6/222.jpg" ,
         "titel":"Stylish dress",
         "priceLin":"",
         "price":"$99.00",
