@@ -139,20 +139,24 @@
 
 
 
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 
 
 
 .all{
-  width: 100vw;
-  height: 100%;
+  /* width: 100vw;
+  height: 100%; */
   background-color: aquamarine;
-  margin: 5px;
-  padding: 10px;
+  /* margin: 5px;
+  padding: 10px; */
   text-align: center;
 
   display: flex;
+  flex-wrap: wrap;
   /* position: relative; */
 }
 
