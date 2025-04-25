@@ -7,7 +7,7 @@
 
   --clo-primery:#fb5c42;
   --clo-black:#00000000;
-  --clo-withw:#ffffff;
+  --clo-white:#ffffff;
 }
 
 
@@ -161,16 +161,11 @@
 
 
 .all{
-  /* width: 100vw;
-  height: 100%; */
-  background-color: aquamarine;
-  /* margin: 5px;
-  padding: 10px; */
+  justify-content: center;
+  /* background-color: aquamarine; */
   text-align: center;
-
   display: flex;
   flex-wrap: wrap;
-  /* position: relative; */
   margin: 50px 0px 50px 0px;
 }
 
@@ -178,20 +173,13 @@
 
 
 .divCard{
-  /* width: 100vw;
-  height: 80px;
-background-color: #fb5c42; */
-position: relative;
-/* padding:; */
-margin-left: 10px;
 
+position: relative;
+margin-left: 10px;
 }
 
 
 .cardImag{
-  /* width: 50px;
-  height: 50px;
-background-color: #42fba2; */
 text-align: center;
 position: absolute;
 opacity: 0;
@@ -204,22 +192,25 @@ transition: 0.5s;
 
 
 .cardImag1{
-  /* width: 50px;
-  height: 50px;
-  background-color: #42ecfb; */
-/* position: absolute; */
+
 }
 
 .cardBady{
-  /* width: 50px;
-  height: 50px;
-  background-color: #fb424e;
-  text-align: center; */
-
   margin-top: 30px;
+}
+
+.parent-icon-part-product{
+  position: absolute;
+  top: 250px;
+  right: 100px;
 
 }
 
+.parent-icon-part-product1{
+  position: absolute;
+  top: 250px;
+  right: 160px;
+}
 
 .p-titel-product{
   color:black;
@@ -228,15 +219,15 @@ transition: 0.5s;
 }
 .p-price-product{
   color: #777;
+  margin-top: 3px;
 
 }
 .text-off{
   color: var(--clo-white);
   background-color:var(--clo-primery) ;
-  
   padding: 5px 10px;
   position: absolute;
   top: 40px;
   right: 0px;
-  /* z-index: 100; */
+
 }

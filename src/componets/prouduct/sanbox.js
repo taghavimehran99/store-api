@@ -116,7 +116,7 @@ for (let i = 0; i < inputJson.length; i++) {
    
 
     
-    parentDiv.appendChild(divCard,cardImag,cardImag1,cardBady)
+    parentDiv.appendChild(divCard)
 
 
  divCard.innerHTML=`
@@ -134,7 +134,7 @@ for (let i = 0; i < inputJson.length; i++) {
   
     <div class="cardBady">
       <p class="p-titel-product">${vv.titel}</p>
-      <p class="p-price-product"><s>${vv.priceLin}</s>${vv.price}</p>
+      <p class="p-price-product"><s>${vv.priceLin}</s> ${vv.price}</p>
     </div>
     <p class="${vv.deteltitel ? 'text-off' : "" }">${vv.deteltitel}</p>
 
